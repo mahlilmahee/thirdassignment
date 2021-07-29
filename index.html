@@ -26,12 +26,20 @@
         width: 288px;
 height: 243px;
 
-    }
+    } 
+    /* only to make the website fully respondive */
+    html, body {
+    overflow-x:hidden;
+    width:100%;
+   /* You may also want to try adding:*/
+    margin: 0;
+    padding: 0;
+}
 </style>
 
 
 </head>
-<body>
+<body >
 <!-- head section and the top image will be here  -->
     <header>
       <section style="background-color: #264653;" class="overflow-hidden pt-5 pb-5 px-4 mb-5">  
@@ -307,11 +315,11 @@ height: 243px;
 
 
 <!-- frequenty asked question by our customer  -->
-<section>
-<h1 class="fw-bold text-center mb-5 mt-5" > frequenty Asked <span class="text-danger">Question</span></h1>
+<section class="mb-5">
+<h1 class="fw-bold text-center mb-5 " > frequenty Asked <span class="text-danger">Question</span></h1>
 
- <div class="row d-flex gy-5  flex-column row-cols-lg-2  align-items-center p-4 justify-content-evenly flex-lg-row">
-      <div class=" col-12 col-lg-6 text-center"><img src="images/faq.png" width="65%"   alt=""></div>
+ <div class="row d-flex gy-5  flex-column row-cols-lg-2  align-items-center p-4 justify-content-evenly flex-lg-row m-0 pe-0">
+      <div class=" col-10 col-lg-6 text-center"><img src="images/faq.png" width="95%"   alt=""></div>
      <!-- extra ordinary section -->
      <div class=" col-12 col-lg-6">
         <div class="accordion" id="accordionExample">
